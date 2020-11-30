@@ -268,13 +268,6 @@
 // //console.log(arrayRemove);
 // // ['Knife', 'Medkit']
 // */
-const printMessage = function(message) {
-    console.log(message)
-}
-
-const higherOrderFunction = function(callback) {
-    const string = 'HOCs are awesome'
-    callback(string)
-}
-
-higherOrderFunction(printMessage)
+const goods = ['Нанитоиды', 'Пролонгер', 'Железные жупи', 'Антигравитатор'];
+const index = goods.indexOf('Пролонгер');
+console.log(index);
